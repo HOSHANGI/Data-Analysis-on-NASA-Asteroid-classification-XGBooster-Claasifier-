@@ -1,5 +1,33 @@
 # Data-Analysis-on-NASA-Asteroid-classification-XGBooster-Claasifier
 
+Project Title: NASA Asteroid Classification using XGBoost for Data Analysis Portfolio
+
+I am thrilled to present my latest project, focusing on data analysis and classification of NASA asteroids using the XGBoost algorithm. This project, part of my Data Analysis Portfolio, involved employing various tools and techniques to analyze the dataset and build an accurate classification model.
+
+Project Description:
+In this project, I conducted a comprehensive analysis of a NASA asteroid dataset with the objective of classifying asteroids based on the presence of hazards. Leveraging the power of XGBoost, a robust machine learning algorithm, I aimed to develop a model that accurately predicts the hazardous nature of asteroids based on the available features.
+
+Key Project Highlights:
+
+*Data Preprocessing: I began by importing the necessary libraries and reading the dataset in CSV format. Next, I performed data preprocessing by dropping columns that were not required for the classification task. Additionally, I employed one-hot encoding on the "Hazardous" column to convert categorical data into a numerical format.
+
+*Feature Selection: During the analysis, I observed the unique values in the "Orbiting Body" and "Equinox" columns. Since both columns contained only a single value, they were dropped from the dataset as they provided no meaningful information. Additionally, I explored the correlation among the remaining features using a heatmap. Identical columns with different units, which exhibited a correlation of 1, were removed to eliminate redundancy.
+
+*Model Building: With the dataset prepared, I proceeded to build the classification model using the XGBoost Classifier. XGBoost is a highly effective algorithm known for its ability to handle complex relationships and deliver accurate predictions. I trained the model on the selected features and evaluated its performance.
+
+*Accuracy Evaluation: Following the model training, I calculated the final accuracy score to assess its performance in accurately classifying the asteroids. The accuracy score provided an indication of how well the model could predict the presence of hazards.
+
+Tools and Techniques Used:
+
+*Python: I utilized the Python programming language throughout the project.
+*Pandas: The Pandas library was employed for data manipulation and preprocessing.
+*XGBoost: The XGBoost algorithm was used for building the classification model.
+*Heatmap Visualization: Heatmaps were employed to observe the correlation among features.
+
+This project not only showcased my expertise in data analysis but also highlighted my ability to preprocess data, select relevant features, and build a robust classification model. By leveraging XGBoost, I achieved accurate results and demonstrated the potential of machine learning in accurately classifying NASA asteroids.
+
+For a more detailed overview of this project, including code implementation and visualizations, please visit my GitHub profile. I am open to discussions, collaboration opportunities, and further inquiries related to this project.
+
 
 **Droping Columns which are not Required for Classification
 **One hot encoding on Hazardous column
